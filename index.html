@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container bg-success p-5">
+        <h1 class="text-capitalize m-5" id="act">this is my first Javascrip code</h1>
+        <button class="btn-lg btn-warning text-center m-5" type="button"
+            onclick="document.getElementById('demo').innerHTML = Date()">Click Me!</button>
+        <button class="btn-lg btn-danger" type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.</button>
+
+
+        <h2>What Can JavaScript Do?</h2>
+
+        <p id="demo">JavaScript can change HTML content.</p>
+
+        <button type="button" onclick='document.getElementById("demo").innerHTML = fortune()'>Click
+            Me! It is your fortune</button>
+            
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
